@@ -35,6 +35,7 @@ namespace API_Lab
         public override string ToString()
         {
             string msg = $"Fact: {text}\n";
+            msg += $"User: {user}\n";
             return msg;
         }
     }
